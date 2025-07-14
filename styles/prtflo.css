@@ -112,7 +112,42 @@ div{
     
 }
 
+/* image and button section */
+.image-button{
+    align-items: center;
+}
 
-.image-position{
-    position: ;
+
+/* 3rd image  */
+
+.third-image{
+    margin: 40px;
+    
+    
+}
+
+/* input collumn */
+.input-collumn{
+    display: flex;
+    padding: 130px 230px;
+    width: 50%;
+}
+
+/* form-list */
+.form-list{
+    display: flex;
+    gap: 100px;
+    
+    
+}
+
+input[type="text"], form input[type="email"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    /* border: none; */
 }
